@@ -1,8 +1,8 @@
 import "./Button.css"
 
-function Button({children}){
+function Button({children, stampa}){
     return (
-        <button>{children}</button>
+        <button onClick={stampa}>{children}</button>
     )
 }
 
